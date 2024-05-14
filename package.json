@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Realizar request com dados de arquivo csv",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon"
   },
   "keywords": [],
   "author": "",
@@ -15,3 +16,5 @@
     "express": "^4.19.2"
   }
 }
+
+
