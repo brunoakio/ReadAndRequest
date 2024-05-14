@@ -41,7 +41,7 @@ async function enviarDadosViaAPI(dados, urlDaAPI) {
 const caminhoArquivoCSV = 'dados.csv';
 const urlDaAPI = 'http://sua-api.com/endpoint';
 
-// Ler o arquivo CSV e enviar os dados via API
+// Ler o arquivo CSV e enviar os dados via API ttt
 lerArquivoCSV(caminhoArquivoCSV)
     .then((dados) => {
         enviarDadosViaAPI(dados, urlDaAPI);
