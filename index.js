@@ -14,7 +14,7 @@ function readCsv(filePath) {
         fs.createReadStream(filePath)
             .pipe(csv())
             .on('data', (row) => {
-                //console.log(row);
+                
                 dados.push(row);
             })
             .on('end', () => {
